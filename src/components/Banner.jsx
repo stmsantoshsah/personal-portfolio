@@ -26,7 +26,7 @@ const Banner = () => {
                   aria-label="linkedin"
                   rel="noreferrer"
                   target="_blank"
-                  href="https://www.linkedin.com/"
+                  href="https://www.linkedin.com/in/santoshsah1/"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -51,7 +51,7 @@ const Banner = () => {
                   aria-label="github"
                   rel="noreferrer"
                   target="_blank"
-                  href="https://github.com"
+                  href="https://github.com/stmsantoshsah"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
