@@ -3,7 +3,7 @@ import "../scss/Global.scss";
 import gymateHomeImage from "../assets/images/gymate-home.webp";
 import coindomFullImage from "../assets/images/coindom-full.png";
 import carRentalImage from "../assets/images/car-rental-full.webp";
-import ecomImage from "../assets/images/ecom.webp";
+import ecomImage from "../assets/images/besthostingpicks.webp";
 
 const Projects = () => {
   return (
@@ -181,7 +181,7 @@ const Projects = () => {
                   <p>Tailwind CSS</p>
                 </div>
                 <div className="links">
-                  <a
+                  {/* <a
                     target="_blank"
                     href="https://github.com/"
                     rel="noreferrer"
@@ -203,7 +203,7 @@ const Projects = () => {
                       {" "}
                       <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5"></path>{" "}
                     </svg>{" "}
-                  </a>
+                  </a> */}
                   <a target="_blank" href="/" rel="noreferrer">
                     {" "}
                     Live Demo{" "}
@@ -232,7 +232,7 @@ const Projects = () => {
               <div className="pro__img">
                 <a
                   target="_blank"
-                  href="https://minimalist-e-commerce.vercel.app/"
+                  href="https://besthostingpicks.com"
                   rel="noreferrer"
                 >
                   <img src={ecomImage} alt="website" />
@@ -240,20 +240,18 @@ const Projects = () => {
               </div>
               <div className="pro__text">
                 <h3>
-                  Ecommerce <span className="date-class">(December 2022)</span>{" "}
+                Best Hosting Picks<span className="date-class">(October 2023)</span>{" "}
                   🛒
                 </h3>
                 <p>
-                  With a focus on simplicity and clean design, this store
-                  prioritizes user experience, making it easy for customers to
-                  find and purchase the products they need.
+                This WordPress-based site helps users easily compare web hosting providers with a clean, responsive design. I worked on improving the front-end, ensuring fast load times and mobile-friendly layouts, and enhancing the user experience for seamless navigation across pages.
                 </p>
                 <div className="stack">
-                  <p>React</p>
-                  <p>Vanilla CSS</p>
+                  <p>WordPress</p>
+                  <p>CSS</p>
                 </div>
                 <div className="links">
-                  <a
+                  {/* <a
                     target="_blank"
                     href="https://github.com/"
                     rel="noreferrer"
@@ -275,8 +273,8 @@ const Projects = () => {
                       {" "}
                       <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5"></path>{" "}
                     </svg>{" "}
-                  </a>
-                  <a target="_blank" href="/" rel="noreferrer">
+                  </a> */}
+                  <a target="_blank" href="https://besthostingpicks.com" rel="noreferrer">
                     {" "}
                     Live Demo{" "}
                     <svg

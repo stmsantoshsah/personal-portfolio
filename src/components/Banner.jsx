@@ -4,7 +4,8 @@ import htmlImage from "../assets/images/html.png";
 import jsbsImage from "../assets/images/jsbs.png";
 import reactNodeImage from "../assets/images/reactnode.png";
 import sassImage from "../assets/images/sass.png";
-
+// import resume from "../assets/images/resume.pdf";
+const resume = process.env.PUBLIC_URL + '/resume.pdf';
 const Banner = () => {
   return (
     <section id="home" className="hero hero spacing_top spacing_bottom">
@@ -72,13 +73,8 @@ const Banner = () => {
             </div>
             <div className="hero-img"></div>
           </div>
-          <a
-            href="/demo/react/simone/demo/static/media/resume.pdf"
-            download=""
-            className="btn btn-primary buttonDownload"
-          >
-            Download CV
-          </a>
+          <a href={resume} download="Santosh_Resume.pdf" className="btn btn-primary buttonDownload">Download CV</a>
+
           <div className="skills">
             <p>Tech Stack</p>
             <div className="logos">
