@@ -5,7 +5,7 @@ import jsbsImage from "../assets/images/jsbs.png";
 import reactNodeImage from "../assets/images/reactnode.png";
 import sassImage from "../assets/images/sass.png";
 // import resume from "../assets/images/resume.pdf";
-const resume = process.env.PUBLIC_URL + '/Santosh_Sah_Frontend_Developer_Resume.pdf';
+const resume = process.env.PUBLIC_URL + '/resume.pdf';
 const Banner = () => {
   return (
     <section id="home" className="hero hero spacing_top spacing_bottom">
