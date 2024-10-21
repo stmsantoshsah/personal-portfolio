@@ -1,6 +1,6 @@
 {
-  "name": "personal-portfolio",
   "homepage": "https://stmsantoshsah.github.io/personal-portfolio",
+  "name": "personal-portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -45,6 +45,6 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^6.1.1"
+    "gh-pages": "^6.2.0"
   }
 }
