@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/personal-portfolio/static/css/main.b8bf4f72.css",
-    "main.js": "/personal-portfolio/static/js/main.29ad078d.js",
+    "main.js": "/personal-portfolio/static/js/main.818b848a.js",
+    "static/media/besthostingpicks.webp": "/personal-portfolio/static/media/besthostingpicks.b8f8d4e5de76dd5c2ab9.webp",
     "static/media/coindom-full.png": "/personal-portfolio/static/media/coindom-full.c5fef9ca2f47e52897f8.png",
     "static/media/gymate-home.webp": "/personal-portfolio/static/media/gymate-home.52d00d03c15713c601c4.webp",
     "static/media/car-rental-full.webp": "/personal-portfolio/static/media/car-rental-full.c58b37da333d73238fdd.webp",
-    "static/media/ecom.webp": "/personal-portfolio/static/media/ecom.f10b3cdd799be85c19da.webp",
     "static/media/santoshavatar.jpg": "/personal-portfolio/static/media/santoshavatar.aaf6d474b1d4fb82fa98.jpg",
     "static/media/about-img.webp": "/personal-portfolio/static/media/about-img.62b47e7f183d4b4e9feb.webp",
     "static/media/waving.png": "/personal-portfolio/static/media/waving.1bae5fcfb51082b5c2b4.png",
@@ -14,10 +14,10 @@
     "static/media/text.svg": "/personal-portfolio/static/media/text.3d5aa6ba2d0632bb4e0572631c3f9dc2.svg",
     "index.html": "/personal-portfolio/index.html",
     "main.b8bf4f72.css.map": "/personal-portfolio/static/css/main.b8bf4f72.css.map",
-    "main.29ad078d.js.map": "/personal-portfolio/static/js/main.29ad078d.js.map"
+    "main.818b848a.js.map": "/personal-portfolio/static/js/main.818b848a.js.map"
   },
   "entrypoints": [
     "static/css/main.b8bf4f72.css",
-    "static/js/main.29ad078d.js"
+    "static/js/main.818b848a.js"
   ]
 }
