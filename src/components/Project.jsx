@@ -1,7 +1,7 @@
 import React from "react";
 import "../scss/Global.scss";
-import gymateHomeImage from "../assets/images/gymate-home.webp";
-import coindomFullImage from "../assets/images/coindom-full.png";
+import l4wHomeImage from "../assets/images/Licence-4-Work.png";
+import halsaFullImage from "../assets/images/Halsa-Footwear.png";
 import carRentalImage from "../assets/images/car-rental-full.webp";
 import ecomImage from "../assets/images/besthostingpicks.webp";
 
@@ -91,26 +91,25 @@ const Projects = () => {
               <div className="pro__img">
                 <a
                   target="_blank"
-                  href="https://coindom-crypto-search.vercel.app/"
+                  href="https://halsafootwear.com/"
                   rel="noreferrer"
                 >
-                  <img src={coindomFullImage} alt="website" />
+                  <img src={halsaFullImage} alt="website" />
                 </a>
               </div>
               <div className="pro__text">
                 <h3>
-                  Coindom <span className="date-class">(February 2023)</span> 🪙
+                  halsafootwear <span className="date-class">(February 2023)</span> 🪙
                 </h3>
                 <p>
-                  Coindom is a crypto app that allows users to search for
-                  information about various cryptocurrencies in real-time.
+                  Halsa Footwear is an e-commerce website specializing in comfortable, health-focused footwear. My role was to enhance the website's user experience, improve loading speeds, and create a seamless shopping journey on both desktop and mobile.
                 </p>
-                <div className="stack">
+                {/* <div className="stack">
                   <p>React</p>
                   <p>SCSS</p>
-                </div>
+                </div> */}
                 <div className="links">
-                  <a
+                  {/* <a
                     target="_blank"
                     href="https://github.com/"
                     rel="noreferrer"
@@ -132,8 +131,8 @@ const Projects = () => {
                       {" "}
                       <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5"></path>{" "}
                     </svg>{" "}
-                  </a>
-                  <a target="_blank" href="/" rel="noreferrer">
+                  </a> */}
+                  <a target="_blank" href="/" rel="https://halsafootwear.com/">
                     {" "}
                     Live Demo{" "}
                     <svg
@@ -161,25 +160,23 @@ const Projects = () => {
               <div className="pro__img">
                 <a
                   target="_blank"
-                  href="https://gymate-iota.vercel.app/"
+                  href="https://www.licences4work.com.au/"
                   rel="noreferrer"
                 >
-                  <img src={gymateHomeImage} alt="website" />
+                  <img src={l4wHomeImage} alt="website" />
                 </a>
               </div>
               <div className="pro__text">
                 <h3>
-                  Gymate <span className="date-class">(January 2023)</span> 🏋️
+                  licences4work <span className="date-class">(January 2023)</span> 🏋️
                 </h3>
                 <p>
-                  A gym website is a comprehensive resource for fitness
-                  information, class schedules, membership options, and tools to
-                  help users achieve their fitness goals.
+                  Licences 4 Work offers training and certification for different job skills in Australia. My role was to make the website easier to use, improve the mobile experience, and simplify the course registration process.
                 </p>
-                <div className="stack">
+                {/* <div className="stack">
                   <p>React</p>
                   <p>Tailwind CSS</p>
-                </div>
+                </div> */}
                 <div className="links">
                   {/* <a
                     target="_blank"
@@ -204,7 +201,7 @@ const Projects = () => {
                       <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5"></path>{" "}
                     </svg>{" "}
                   </a> */}
-                  <a target="_blank" href="/" rel="noreferrer">
+                  <a target="_blank" href="https://www.licences4work.com.au/" rel="noreferrer">
                     {" "}
                     Live Demo{" "}
                     <svg
@@ -240,11 +237,11 @@ const Projects = () => {
               </div>
               <div className="pro__text">
                 <h3>
-                Best Hosting Picks<span className="date-class">(October 2023)</span>{" "}
+                  Best Hosting Picks<span className="date-class">(October 2023)</span>{" "}
                   🛒
                 </h3>
                 <p>
-                This WordPress-based site helps users easily compare web hosting providers with a clean, responsive design. I worked on improving the front-end, ensuring fast load times and mobile-friendly layouts, and enhancing the user experience for seamless navigation across pages.
+                  This WordPress-based site helps users easily compare web hosting providers with a clean, responsive design. I worked on improving the front-end, ensuring fast load times and mobile-friendly layouts, and enhancing the user experience for seamless navigation across pages.
                 </p>
                 <div className="stack">
                   <p>WordPress</p>
