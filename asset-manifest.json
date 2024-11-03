@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/personal-portfolio/static/css/main.b8bf4f72.css",
-    "main.js": "/personal-portfolio/static/js/main.f18810db.js",
+    "main.js": "/personal-portfolio/static/js/main.5f2252e9.js",
     "static/media/Halsa-Footwear.png": "/personal-portfolio/static/media/Halsa-Footwear.015648b980d83290379e.png",
     "static/media/besthostingpicks.webp": "/personal-portfolio/static/media/besthostingpicks.b8f8d4e5de76dd5c2ab9.webp",
     "static/media/Licence-4-Work.png": "/personal-portfolio/static/media/Licence-4-Work.793f15cb00e679efc59e.png",
@@ -14,10 +14,10 @@
     "static/media/text.svg": "/personal-portfolio/static/media/text.3d5aa6ba2d0632bb4e0572631c3f9dc2.svg",
     "index.html": "/personal-portfolio/index.html",
     "main.b8bf4f72.css.map": "/personal-portfolio/static/css/main.b8bf4f72.css.map",
-    "main.f18810db.js.map": "/personal-portfolio/static/js/main.f18810db.js.map"
+    "main.5f2252e9.js.map": "/personal-portfolio/static/js/main.5f2252e9.js.map"
   },
   "entrypoints": [
     "static/css/main.b8bf4f72.css",
-    "static/js/main.f18810db.js"
+    "static/js/main.5f2252e9.js"
   ]
 }
