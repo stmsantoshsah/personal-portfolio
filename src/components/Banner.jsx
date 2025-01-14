@@ -19,7 +19,7 @@ const Banner = () => {
               </h1>
 
               <p>
-                Hi, I'm Santosh Tpss. A passionate Front-end React Developer
+                Hi, I'm Santosh Sah. A passionate Front-end React Developer
                 based in Chandigarh, India. 📍
               </p>
               <span className="social_icon">

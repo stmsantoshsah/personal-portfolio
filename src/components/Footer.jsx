@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className="footer">
       <div className="container">
         <div className="footer-content">
-          <h3 className="copyrighttext">Copyright © 2024. All rights are reserved</h3>
+          <h3 className="copyrighttext">Copyright © 2025. All rights are reserved</h3>
           <div className="footer_social">
             <a aria-label="linkedin" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/santoshsah1">
               <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="tabler-icon tabler-icon-brand-linkedin">

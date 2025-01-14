@@ -19,17 +19,18 @@ const About = () => {
           <div className="text-side">
             <h3 className="section-title ">About me</h3>
             <h2 className="section-subtitle">A dedicated Front-end Developer <br /> based in Chandigarh, India📍</h2>
-            
+
             <p>
-              As a Junior Front-End Developer, I possess an impressive arsenal
-              of skills in HTML, CSS, JavaScript, React, Tailwind, and SCSS. I
-              excel in designing and maintaining responsive websites that offer
-              a smooth user experience. My expertise lies in crafting dynamic,
-              engaging interfaces through writing clean and optimized code and
-              utilizing cutting-edge development tools and techniques. I am also
-              a team player who thrives in collaborating with cross-functional
-              teams to produce outstanding web applications.
+              As a Junior Front-End Developer, I have strong skills in <strong>HTML</strong>, <strong>CSS</strong>, <strong>JavaScript</strong>, <strong>React</strong>, <strong>TypeScript</strong>, <strong>Next.js</strong>, <strong>Tailwind CSS</strong>, and <strong>SCSS</strong>. I enjoy turning design ideas into interactive, smooth websites that work well across all devices.
             </p>
+            <p>
+              My goal is to write efficient, maintainable code and use the latest technologies to build fast, accessible, and engaging web applications. I am always excited to learn new tools and techniques to improve my development process.
+            </p>
+            <p>
+              I believe in collaborating closely with teams to bring ideas to life and ensure the best user experience. Whether it’s designing new features or fixing bugs, I stay focused on delivering high-quality results.
+            </p>
+
+
           </div>
         </div>
       </div>
