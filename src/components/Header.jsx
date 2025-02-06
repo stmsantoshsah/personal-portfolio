@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 
 const Header = () => {
@@ -8,8 +7,16 @@ const Header = () => {
     setMenuOpen(!menuOpen);
   };
 
-  const closeMenu = () => {
+  const closeMenu = (section) => {
     setMenuOpen(false);
+
+    // Google Analytics event tracking
+    if (window.gtag) {
+      window.gtag('event', 'menu_click', {
+        event_category: 'Navigation',
+        event_label: section, // Section name
+      });
+    }
   };
 
   return (
@@ -26,11 +33,11 @@ const Header = () => {
             </label>
           </div>
           <ul className={`menu ${menuOpen ? 'open' : ''}`}>
-            <li><a href="#home" onClick={closeMenu}>Home</a></li>
-            <li><a href="#about" onClick={closeMenu}>About</a></li>
-            <li><a href="#projects" onClick={closeMenu}>Projects</a></li>
-            <li><a href="#testimonials" onClick={closeMenu}>Testimonials</a></li>
-            <li><a href="#contact" onClick={closeMenu}>Contact</a></li>
+            <li><a href="#home" onClick={() => closeMenu('Home')}>Home</a></li>
+            <li><a href="#about" onClick={() => closeMenu('About')}>About</a></li>
+            <li><a href="#projects" onClick={() => closeMenu('Projects')}>Projects</a></li>
+            <li><a href="#testimonials" onClick={() => closeMenu('Testimonials')}>Testimonials</a></li>
+            <li><a href="#contact" onClick={() => closeMenu('Contact')}>Contact</a></li>
           </ul>
         </nav>
       </div>
