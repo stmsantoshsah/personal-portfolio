@@ -4,8 +4,16 @@ import htmlImage from "../assets/images/html.png";
 import jsbsImage from "../assets/images/jsbs.png";
 import reactNodeImage from "../assets/images/reactnode.png";
 import sassImage from "../assets/images/sass.png";
-// import resume from "../assets/images/resume.pdf";
-const resume = process.env.PUBLIC_URL + '/resume.pdf';
+
+const resume = "/resume.pdf"; // Assuming it's placed in the public folder
+
+const techStack = [
+  { src: htmlImage, alt: "HTML" },
+  { src: jsbsImage, alt: "JavaScript & Bootstrap" },
+  { src: reactNodeImage, alt: "React & Node.js" },
+  { src: sassImage, alt: "SASS" }
+];
+
 const Banner = () => {
   return (
     <section id="home" className="hero hero spacing_top spacing_bottom">
@@ -15,16 +23,15 @@ const Banner = () => {
             <div className="hero-text">
               <h1>
                 <span>Front-End React Developer</span>{" "}
-                <img className="waving-hand" src={wavingImage} alt="waving_hand" />
+                <img className="waving-hand" src={wavingImage} alt="Waving Hand" loading="lazy" />
               </h1>
-
               <p>
                 Hi, I'm Santosh Sah. A passionate Front-end React Developer
                 based in Chandigarh, India. 📍
               </p>
               <span className="social_icon">
                 <a
-                  aria-label="linkedin"
+                  aria-label="LinkedIn"
                   rel="noreferrer"
                   target="_blank"
                   href="https://www.linkedin.com/in/santoshsah1/"
@@ -49,7 +56,7 @@ const Banner = () => {
                   </svg>
                 </a>
                 <a
-                  aria-label="github"
+                  aria-label="GitHub"
                   rel="noreferrer"
                   target="_blank"
                   href="https://github.com/stmsantoshsah"
@@ -71,26 +78,21 @@ const Banner = () => {
                 </a>
               </span>
             </div>
-            <div className="hero-img"></div>
           </div>
-          <a href={resume} download="Santosh_Resume.pdf" className="btn btn-primary buttonDownload">Download CV</a>
+
+          <a href={resume} download="Santosh_Resume.pdf" className="btn btn-primary buttonDownload" aria-label="Download CV">
+            Download CV
+          </a>
 
           <div className="skills">
             <p>Tech Stack</p>
             <div className="logos">
               <ul>
-                <li>
-                  <img src={htmlImage} alt="skill-icon" />
-                </li>
-                <li>
-                  <img src={jsbsImage} alt="skill-icon" />
-                </li>
-                <li>
-                  <img src={reactNodeImage} alt="skill-icon" />
-                </li>
-                <li>
-                  <img src={sassImage} alt="skill-icon" />
-                </li>
+                {techStack.map((tech, index) => (
+                  <li key={index}>
+                    <img src={tech.src} alt={tech.alt} loading="lazy" />
+                  </li>
+                ))}
               </ul>
             </div>
           </div>

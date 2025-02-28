@@ -2,298 +2,119 @@ import React from "react";
 import "../scss/Global.scss";
 import l4wHomeImage from "../assets/images/Licence-4-Work.png";
 import halsaFullImage from "../assets/images/Halsa-Footwear.png";
-import carRentalImage from "../assets/images/car-rental-full.webp";
 import ecomImage from "../assets/images/besthostingpicks.webp";
+import deskr from "../assets/images/deskr.webp"
+import citagenix from "../assets/images/citagenix.webp"
+
+const projectsData = [
+
+  {
+    id: 1,
+    title: "Halsa Footwear",
+    date: "February 2023",
+    description:
+      "Halsa Footwear is an e-commerce website specializing in comfortable, health-focused footwear. My role was to enhance the website's user experience, improve loading speeds, and create a seamless shopping journey on both desktop and mobile.",
+    stack: ["Shopify", "CSS"],
+    image: halsaFullImage,
+    liveLink: "https://halsafootwear.com/",
+    icon: "🪙",
+  },
+  {
+    id: 2,
+    title: "Licences4Work",
+    date: "January 2023",
+    description:
+      "Licences 4 Work offers training and certification for different job skills in Australia. My role was to make the website easier to use, improve the mobile experience, and simplify the course registration process.",
+    stack: ["WordPress", "CSS"],
+    image: l4wHomeImage,
+    liveLink: "https://www.licences4work.com.au/",
+    icon: "🏋️",
+  },
+  {
+    id: 3,
+    title: "Best Hosting Picks",
+    date: "October 2023",
+    description:
+      "This WordPress-based site helps users easily compare web hosting providers with a clean, responsive design. I worked on improving the front-end, ensuring fast load times and mobile-friendly layouts, and enhancing the user experience for seamless navigation across pages.",
+    stack: ["WordPress", "CSS"],
+    image: ecomImage,
+    liveLink: "https://www.besthostingpicks.com/",
+    icon: "🛒",
+  },
+  {
+    id: 4,
+    title: "Deskr",
+    date: "January 2024",
+    description:
+      "Deskr is a workspace management platform that helps companies optimize their office space and improve employee collaboration. I worked on refining the user interface and enhancing the website’s responsiveness.",
+    stack: ["React", "Next.js", "SCSS"],
+    image:deskr,
+    liveLink: "https://deskr.co/",
+    icon: "💼",
+  },
+  {
+    id: 5,
+    title: "Hansamed - Citagenix",
+    date: "February 2024",
+    description:
+      "Hansamed Citagenix is a medical website offering surgical and regenerative solutions. My role involved improving UI/UX, optimizing performance, and ensuring seamless navigation for both professionals and patients.",
+    stack: ["WordPress", "CSS"],
+    image:citagenix,
+    liveLink: "https://hansamed.net/citagenix",
+    icon: "⚕️",
+  },
+];
 
 const Projects = () => {
   return (
     <section id="projects" className="projects spacing_top spacing_bottom">
       <div className="container">
         <div className="project-content">
-          <h3 className="section-title">portfolio</h3>
+          <h3 className="section-title">Portfolio</h3>
           <h2 className="section-subtitle">
             Each project is a unique piece of development 🧩
           </h2>
           <div className="projects-grid">
-            {/* Project 1 */}
-            <div className="project undefined">
-              <div className="pro__img">
-                <a
-                  target="_blank"
-                  href="https://car-rental-ten.vercel.app/"
-                  rel="noreferrer"
-                >
-                  <img src={carRentalImage} alt="website" />
-                </a>
-              </div>
-              <div className="pro__text">
-                <h3>
-                  Car Rental <span className="date-class">(February 2023)</span>{" "}
-                  🚗
-                </h3>
-                <p>
-                  A car rental website is an online platform that allows users
-                  to rent cars for personal or business use.
-                </p>
-                <div className="stack">
-                  <p>React</p>
-                  <p>SCSS</p>
-                </div>
-                <div className="links">
-                  <a
-                    target="_blank"
-                    href="https://github.com/"
-                    rel="noreferrer"
-                  >
-                    {" "}
-                    Code{" "}
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="currentColor"
-                      strokeWidth="2"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      className="tabler-icon tabler-icon-brand-github"
-                    >
-                      {" "}
-                      <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5"></path>{" "}
-                    </svg>{" "}
-                  </a>
-                  <a target="_blank" href="/" rel="noreferrer">
-                    {" "}
-                    Live Demo{" "}
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="currentColor"
-                      strokeWidth="2"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      className="tabler-icon tabler-icon-external-link"
-                    >
-                      {" "}
-                      <path d="M12 6h-6a2 2 0 0 0 -2 2v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-6"></path>{" "}
-                      <path d="M11 13l9 -9"></path> <path d="M15 4h5v5"></path>{" "}
-                    </svg>{" "}
+            {projectsData.map((project, index) => (
+              <div
+                key={project.id}
+                className={`project ${index % 2 !== 0 ? "reversed-proj" : ""}`}
+              >
+                <div className="pro__img">
+                  <a target="_blank" href={project.liveLink} rel="noreferrer">
+                    <img src={project.image} alt={project.title} />
                   </a>
                 </div>
-              </div>
-            </div>
-            {/* Project 2 */}
-            <div className="project reversed-proj">
-              <div className="pro__img">
-                <a
-                  target="_blank"
-                  href="https://halsafootwear.com/"
-                  rel="noreferrer"
-                >
-                  <img src={halsaFullImage} alt="website" />
-                </a>
-              </div>
-              <div className="pro__text">
-                <h3>
-                  halsafootwear <span className="date-class">(February 2023)</span> 🪙
-                </h3>
-                <p>
-                  Halsa Footwear is an e-commerce website specializing in comfortable, health-focused footwear. My role was to enhance the website's user experience, improve loading speeds, and create a seamless shopping journey on both desktop and mobile.
-                </p>
-                {/* <div className="stack">
-                  <p>React</p>
-                  <p>SCSS</p>
-                </div> */}
-                <div className="links">
-                  {/* <a
-                    target="_blank"
-                    href="https://github.com/"
-                    rel="noreferrer"
-                  >
-                    {" "}
-                    Code{" "}
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="currentColor"
-                      strokeWidth="2"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      class="tabler-icon tabler-icon-brand-github"
-                    >
-                      {" "}
-                      <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5"></path>{" "}
-                    </svg>{" "}
-                  </a> */}
-                  <a target="_blank" href="https://halsafootwear.com/" rel="noreffer">
-                    {" "}
-                    Live Demo{" "}
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="currentColor"
-                      strokeWidth="2"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      className="tabler-icon tabler-icon-external-link"
-                    >
-                      {" "}
-                      <path d="M12 6h-6a2 2 0 0 0 -2 2v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-6"></path>{" "}
-                      <path d="M11 13l9 -9"></path> <path d="M15 4h5v5"></path>{" "}
-                    </svg>{" "}
-                  </a>
+                <div className="pro__text">
+                  <h3>
+                    {project.title}{" "}
+                    <span className="date-class">
+                      ({project.date}) {project.icon}
+                    </span>
+                  </h3>
+                  <p>{project.description}</p>
+                  {project.stack?.length > 0 && (
+                    <div className="stack">
+                      {project.stack.map((tech, i) => (
+                        <p key={i}>{tech}</p>
+                      ))}
+                    </div>
+                  )}
+                  <div className="links">
+                    {project.codeLink ? (
+                      <a target="_blank" href={project.codeLink} rel="noreferrer">
+                        Code
+                      </a>
+                    ) : (
+                      <span className="disabled">Code Unavailable</span>
+                    )}
+                    <a target="_blank" href={project.liveLink} rel="noreferrer">
+                      Live Demo
+                    </a>
+                  </div>
                 </div>
               </div>
-            </div>
-            {/* Project 3 */}
-            <div className="project undefined">
-              <div className="pro__img">
-                <a
-                  target="_blank"
-                  href="https://www.licences4work.com.au/"
-                  rel="noreferrer"
-                >
-                  <img src={l4wHomeImage} alt="website" />
-                </a>
-              </div>
-              <div className="pro__text">
-                <h3>
-                  licences4work <span className="date-class">(January 2023)</span> 🏋️
-                </h3>
-                <p>
-                  Licences 4 Work offers training and certification for different job skills in Australia. My role was to make the website easier to use, improve the mobile experience, and simplify the course registration process.
-                </p>
-                {/* <div className="stack">
-                  <p>React</p>
-                  <p>Tailwind CSS</p>
-                </div> */}
-                <div className="links">
-                  {/* <a
-                    target="_blank"
-                    href="https://github.com/"
-                    rel="noreferrer"
-                  >
-                    {" "}
-                    Code{" "}
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="currentColor"
-                      strokeWidth="2"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      class="tabler-icon tabler-icon-brand-github"
-                    >
-                      {" "}
-                      <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5"></path>{" "}
-                    </svg>{" "}
-                  </a> */}
-                  <a target="_blank" href="https://www.licences4work.com.au/" rel="noreferrer">
-                    {" "}
-                    Live Demo{" "}
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="currentColor"
-                      strokeWidth="2"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      className="tabler-icon tabler-icon-external-link"
-                    >
-                      {" "}
-                      <path d="M12 6h-6a2 2 0 0 0 -2 2v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-6"></path>{" "}
-                      <path d="M11 13l9 -9"></path> <path d="M15 4h5v5"></path>{" "}
-                    </svg>{" "}
-                  </a>
-                </div>
-              </div>
-            </div>
-            {/* Project 4 */}
-            <div className="project reversed-proj">
-              <div className="pro__img">
-                <a
-                  target="_blank"
-                  href="https://besthostingpicks.com"
-                  rel="noreferrer"
-                >
-                  <img src={ecomImage} alt="website" />
-                </a>
-              </div>
-              <div className="pro__text">
-                <h3>
-                  Best Hosting Picks<span className="date-class">(October 2023)</span>{" "}
-                  🛒
-                </h3>
-                <p>
-                  This WordPress-based site helps users easily compare web hosting providers with a clean, responsive design. I worked on improving the front-end, ensuring fast load times and mobile-friendly layouts, and enhancing the user experience for seamless navigation across pages.
-                </p>
-                <div className="stack">
-                  <p>WordPress</p>
-                  <p>CSS</p>
-                </div>
-                <div className="links">
-                  {/* <a
-                    target="_blank"
-                    href="https://github.com/"
-                    rel="noreferrer"
-                  >
-                    {" "}
-                    Code{" "}
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="currentColor"
-                      strokeWidth="2"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      class="tabler-icon tabler-icon-brand-github"
-                    >
-                      {" "}
-                      <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5"></path>{" "}
-                    </svg>{" "}
-                  </a> */}
-                  <a target="_blank" href="https://besthostingpicks.com" rel="noreferrer">
-                    {" "}
-                    Live Demo{" "}
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="currentColor"
-                      strokeWidth="2"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      className="tabler-icon tabler-icon-external-link"
-                    >
-                      {" "}
-                      <path d="M12 6h-6a2 2 0 0 0 -2 2v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-6"></path>{" "}
-                      <path d="M11 13l9 -9"></path> <path d="M15 4h5v5"></path>{" "}
-                    </svg>{" "}
-                  </a>
-                </div>
-              </div>
-            </div>
+            ))}
           </div>
         </div>
       </div>

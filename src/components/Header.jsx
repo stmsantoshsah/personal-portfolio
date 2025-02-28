@@ -14,7 +14,7 @@ const Header = () => {
     if (window.gtag) {
       window.gtag('event', 'menu_click', {
         event_category: 'Navigation',
-        event_label: section, // Section name
+        event_label: section, 
       });
     }
   };
